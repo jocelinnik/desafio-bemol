@@ -1,0 +1,7 @@
+{
+  "name": "web-mobile-desktop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

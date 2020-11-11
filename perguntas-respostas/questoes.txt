@@ -1,0 +1,33 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+Resposta: 
+A solução deve ser disponibilizada na nuvem, devido a exigência da aplicação em
+servir os recursos (canais de comunicação) de forma eficiente como, por exemplo, mensagens
+em tempo real nos canais, além de que esse tipo de dinâmica faz com que a utilização de 
+armazenamento cresça de forma potencialmente exponencial levando em consideração a demanda
+do serviço. Considerando isso, um serviço na nuvem oferece soluções eficientes para lidar 
+com este cenário.
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
+solução, responda qual ferramenta acreditas ser apropriada para o controle de
+tarefas da equipe, a ferramenta é ágil?
+Resposta:
+As ferramentas de gestão de equipes Trello e Clickup se mostram eficientes do ponto de vista
+ágil, pois são livres de burocracia e de fácil utilização, proporcionando um aumento na 
+produtividade da equipe das tarefas a serem desenvolvidas.
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+Resposta:
+Sim, possuo conhecimento técnico, facilidade para entender o núcleo de negócio da solução e 
+gerenciamento de demandas/conflitos na equipe.
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+Resposta:
+O desafio poderia ter um direcionamento melhor quanto ao próximo passo após a implementação da
+feature, acredito que fica muito aberto o que fazer em seguida e assim acaba-se tendo "ideias"
+demais, sem algo concreto. Eu crio a conta e fico na mesma tela? Após a criação da conta, eu 
+faço login no sistema? Vou pra uma página inicial em seguida?
+
+5. Acha válido esse desafio para o processo que está participando?
+Resposta:
+Sim, o desafio faz com que sejam exercitados vários aspectos da Engenharia de Software, e não
+somente codificação.

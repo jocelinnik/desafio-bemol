@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+    <ion-toolbar color="desafio">
+        <ion-title style="color: #ffffff;">
+            Cadastro
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true" class="container">
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.nome" name="nome" type="text" placeholder="Nome completo">
+        </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.cpf" name="cpf" type="text" placeholder="CPF" maxlength="11">
+        </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.cep" name="cep" type="text" placeholder="CEP" maxlength="8">
+        </ion-input>
+        <ion-button (click)="buscarDadosEndereco()">
+            <ion-icon name="search-outline"></ion-icon>
+        </ion-button>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.rua" name="rua" type="text" placeholder="Rua" readonly></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.bairro" name="bairro" type="text" placeholder="Bairro" readonly>
+        </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.cidade" name="cidade" type="text" placeholder="Cidade" readonly>
+        </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.uf" name="uf" type="text" placeholder="UF" readonly></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.email" name="email" type="text" placeholder="E-mail">
+        </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-input [(ngModel)]="usuario.senha" name="senha" type="{{configuracoes.verSenha.campo}}" placeholder="Senha">
+        </ion-input>
+        <ion-button (click)="verSenha()">
+            <ion-icon name="{{configuracoes.verSenha.icone}}"></ion-icon>
+        </ion-button>
+    </ion-item>
+
+    <ion-button shape="round" expand="full" color="success" (click)="salvar()">
+        Salvar
+    </ion-button>
+</ion-content>
