@@ -9,9 +9,9 @@ O sistema foi desenvolvido no padrão **Single Page Application (SPA)**, usando 
 -   Cadastro: tela em que se insere os dados para cadastro no sistema
 -   Home: tela de bem-vindo ao sistema
 
-![Tela de cadastro](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/cadastro.PNG)
+![Tela de cadastro](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/cadastro.png)
 
-![Tela home](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/home.PNG)
+![Tela home](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/home.png)
 
 ## Instalação
 
@@ -24,15 +24,15 @@ Para rodar o sistema, abra um terminal ou prompt de comando, navegue até o dire
 
 Durante a execução do sistema, você pode preencher os dados pedidos. Os campos de CPF e E-mail devem ser preenchidos com dados válidos, ou seja, preencha o CPF somente com os 11 números, e preencha o e-mail no formato adequado /nome_de_usuario/@/provedor/./complemento.../. O preenchimento do endereço é feito de forma automática através da consulta pelo CEP. Para isso, preencha o campo do CEP (somente os números) e pressione no botão da lupa para que seja feita a consulta.
 
-![CPF inválido](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/cpf_invalido.PNG)
+![CPF inválido](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/cpf_invalido.png)
 
-![E-mail inválido](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/email_invalido.PNG)
+![E-mail inválido](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/email_invalido.png)
 
-![CEP inválido](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/cep_invalido.PNG)
+![CEP inválido](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/cep_invalido.png)
 
-![Consulta do CEP](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/consulta_cep.PNG)
+![Consulta do CEP](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/consulta_cep.png)
 
-![Consulta do CEP 2](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/consulta_cep2.PNG)
+![Consulta do CEP 2](https://github.com/linnikmaciel/desafio-bemol/blob/master/prints/consulta_cep2.png)
 
 ## Teste
 
