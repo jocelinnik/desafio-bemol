@@ -20,7 +20,7 @@ Para instalar as dependências do sistema, abra um terminal ou prompt de comando
 
 ## Execução
 
-Para rodar o sistema, abra um terminal ou prompt de comando, navegue até o diretório `bemol-web/` e rode o comando `ionic serve`. Será aberto uma janela/aba do seu navegador padrão no endereço **http://localhost:8100/cadstro**.
+Para rodar o sistema, abra um terminal ou prompt de comando, navegue até o diretório `bemol-web/` e rode o comando `ionic serve`. Será aberto uma janela/aba do seu navegador padrão no endereço **http://localhost:8100/cadastro**.
 
 Durante a execução do sistema, você pode preencher os dados pedidos. Os campos de CPF e E-mail devem ser preenchidos com dados válidos, ou seja, preencha o CPF somente com os 11 números, e preencha o e-mail no formato adequado /nome_de_usuario/@/provedor/./complemento.../. O preenchimento do endereço é feito de forma automática através da consulta pelo CEP. Para isso, preencha o campo do CEP (somente os números) e pressione no botão da lupa para que seja feita a consulta.
 
